@@ -1,0 +1,15 @@
+body {
+    font-family: Arial;
+    margin: auto;
+    padding: 0;
+    text-align: justify;
+}
+h1, h2 {
+    text-align: center;
+}
+@media screen and (max-width: 480px) {
+    body {
+
+        background: yellow;
+    }
+}
