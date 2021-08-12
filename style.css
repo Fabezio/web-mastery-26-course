@@ -8,25 +8,44 @@ body {
     background: white;
     color: #333;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
 }
+
 header {
     background: #ccc;
     width: 100%;
     margin: 0;
-    padding: 32px;
+    padding: 32px 0;
 }
 
 h1 {
     text-align: center;
     margin: 0 auto;
+    font-size: 1.5rem;
 }
 
 main {
-    margin: 0 auto;
-    width: 800px;
-    padding: 0;
+}
+h2 {
+    padding-left: 1rem;
+    
 }
 
-/* colors */
+@media screen and (min-width: 800px) {
+    
+    main {
+        width: 800px;
+        margin: 0 auto;
+    }
+    
+    h1 {
+        padding: 0;
+        font-size: 2rem;
+    }
+    h2 {
+        padding-left: 0 ;
+
+    }
+
+}

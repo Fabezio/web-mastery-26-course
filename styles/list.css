@@ -1,7 +1,7 @@
 
 ul{
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: column;
     background: #222;
     /*width: inherit;*/
     box-sizing: border-box;
@@ -10,25 +10,34 @@ ul{
     justify-content: center;
     list-style: none ;  
     margin: 0;
+    padding-left: 0;
 }
+
 li {
-    
     margin: 0;
-    box-sizing: border-box;
 }
+    
 a {
     margin: 0;
     display: block;
     width: inherit;
     padding: 1rem;
-    
-    
     color: #fff;
     transition: all 100ms 00ms;
     text-decoration: none;
-    
-
 }
 a:hover {
     background: #333;
+}
+
+@media screen and (min-width: 800px) {
+    
+    ul {
+        /* flex-direction: row; */
+        width: 800px;
+        margin: 0 auto;
+        flex-direction: row;
+
+    }
+
 }
