@@ -1,0 +1,34 @@
+
+ul{
+    display: flex;
+    flex-flow: row wrap;
+    background: #222;
+    /*width: inherit;*/
+    box-sizing: border-box;
+    
+    font-weight: 600;
+    justify-content: center;
+    list-style: none ;  
+    margin: 0;
+}
+li {
+    
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    margin: 0;
+    display: block;
+    width: inherit;
+    padding: 1rem;
+    
+    
+    color: #fff;
+    transition: all 100ms 00ms;
+    text-decoration: none;
+    
+
+}
+a:hover {
+    background: #333;
+}

@@ -1,0 +1,32 @@
+/*
+imports
+*/
+@import url(./styles/list.css);
+@import url(./styles/colors.css);
+
+body {
+    background: white;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #ccc;
+    width: 100%;
+    margin: 0;
+    padding: 32px;
+}
+
+h1 {
+    text-align: center;
+    margin: 0 auto;
+}
+
+main {
+    margin: 0 auto;
+    width: 800px;
+    padding: 0;
+}
+
+/* colors */
